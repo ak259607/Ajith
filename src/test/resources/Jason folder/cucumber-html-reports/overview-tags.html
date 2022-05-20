@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <script src="js/jquery.min.js"></script>
@@ -40,12 +40,12 @@ $(document).ready(function() {
 
 
 
-
+  
 <title>Cucumber Reports  - Tags Overview</title>
 
 
   <script>
-$(document).ready(function() {
+  $(document).ready(function() {
 
     var chartData = {
         labels:  [] ,
@@ -53,28 +53,23 @@ $(document).ready(function() {
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [] 
-            },
+                data:  []             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [] 
-            },
+                data:  []             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [] 
-            },
+                data:  []             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [] 
-            },
+                data:  []             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [] 
-            }
+                data:  []             }
         ]
     };
 
@@ -110,10 +105,10 @@ $(document).ready(function() {
     <div class="collapse navbar-collapse">
       <p class="navbar-text navbar-left">Cucumber Report</p>
       <ul class="nav navbar-nav navbar-right">
-        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
         <li role="presentation"      class="active" ><a href="overview-tags.html">Tags</a></li>
         <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
-        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
       </ul>
     </div>
   </div>
@@ -122,33 +117,33 @@ $(document).ready(function() {
 
 <div class="container-fluid">
   <div class="col-md-5 col-md-offset-1">
-
+    
 <table class="table table-bordered" id="build-info">
   <thead>
     <tr>
       <th>Project</th>
-      <th>Date</th>
+            <th>Date</th>
     </tr>
   </thead>
   <tbody>
     <tr class="info">
-      <td>Login</td>
-      <td>07 May 2022, 14:06</td>
+      <td>login</td>
+            <td>19 May 2022, 20:17</td>
     </tr>
   </tbody>
 </table>
 
   </div>
   <div class="col-md-3 col-md-offset-2">
-  </div>
+      </div>
 </div>
 
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
     <h2>Tags Statistics</h2>
-      <p>The following graph shows passing and failing statistics for tags</p>
-  </div>
+          <p>The following graph shows passing and failing statistics for tags</p>
+      </div>
 </div>
 
 
@@ -157,8 +152,8 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-        <p>You have no tags in your cucumber report</p>
-    </div>
+              <p>You have no tags in your cucumber report</p>
+          </div>
   </div>
 </div>
 
